@@ -1,0 +1,15 @@
+{
+    "name": "@nx-js-ts-problem/parent",
+    "version": "1.0.0",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "directories": {
+        "lib": "dist"
+    },
+    "files": [
+        "dist"
+    ],
+    "dependencies": {
+        "@nx-js-ts-problem/child": "*"
+    }
+}

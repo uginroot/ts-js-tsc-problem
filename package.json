@@ -1,0 +1,14 @@
+{
+    "name": "@nx-js-ts-problem/root",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "@nx/js": "^19.5.3",
+        "nx": "^19.5.3",
+        "typescript": "^5.5.4"
+    },
+    "workspaces": [
+        "packages/*"
+    ],
+    "packageManager": "yarn@3.6.1"
+}
